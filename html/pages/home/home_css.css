@@ -1,0 +1,263 @@
+
+@import "/ToySwap/html/components/info/Footer-css.css";
+@import "/ToySwap/html/components/info/header-css.css";
+
+a:link{
+    text-decoration: none;
+    
+}
+body{
+    background-color: #ebebeb;
+}
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    object-fit: scale-down;
+    
+}
+select:focus{
+    outline-width: 0;
+}
+input:focus{
+    outline-width: 0;
+}
+button:focus{
+    outline-width: 0;
+}
+.first-banner{
+    background-image: url("index_imag_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    color: gray;
+    text-align: center;
+    padding-bottom: 50px;
+    height: 200px;
+}
+.content-wrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.main-category {
+    padding: 1px 2px;
+    border: 2px;
+    height: 40px;
+    text-align: right;
+    background-color: #FFC3C2;
+    color: black;
+    float: right;
+    width: 20%;
+}
+.second-banner{
+
+    text-align: center;
+    margin: 20px ;
+}
+.why-using-website{
+    display: flex;
+}
+.box{
+    flex: 30%;
+    padding: 10px;
+    float: right;
+    text-align: right;
+}
+.parents_icon img,.replace_icon img,.save_money_img img{
+    float: right;
+    width: 20%;
+}
+
+.parents , .replace,.save_money{
+    float: right;
+    text-align: right;
+    height: 100%;
+    font-size: x-large;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.save_money{
+    padding-right: 0;
+}
+.sub-content{
+    font-size: medium;
+}
+input[type=text]:focus {
+    background-color: #FFC3C2;
+    opacity: 0.5;
+}
+
+.h1{
+    padding: 50px;
+    font-size: 80px;
+    text-decoration: solid;
+}
+
+.parents{
+ color: #798de0;
+    }
+.replace{
+    color: #52a88c;
+}
+.save_money{
+    color: #a852a7;
+}
+.Third-banner{
+    background-color: #FFC3C2;
+    margin: 20px ;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding-bottom: 5px;
+    opacity: 0.75;
+}
+.Third-banner .h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.item-box{
+    float: right;
+    max-width: 25%;
+    text-align: center;
+    
+}
+.category_banner{
+    display: flex;
+}
+.category_img_wrapper{
+    float: right;
+    flex: 12%;
+    padding: 5px;
+}
+.category_banner .category_img_wrapper  img{
+    width: 100%;
+}
+.img-wrapper img{
+    max-width: 90%;
+    padding: 5px;
+}
+.product-list{
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+.product-list::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.price{
+    font-size: xx-large;
+}
+.price ::before{
+    content: " \20aa";
+}
+.search-bar{
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 45px;
+    opacity: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input-text-search{
+    float: right;
+    flex:60%;
+    text-align: right;
+}
+.input-text-search input{
+    text-align: right;
+}
+.button-search{
+    text-align: right;
+}
+.search-bar .add-item{
+    float: right;
+    color: #a852a7;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size:42px;
+}
+.search-bar .add-item a:hover{
+    color: #FFC3C2;
+}
+a:link{
+    text-decoration: none;
+}
+.button-search img{
+    width: auto;
+    height: 41px;
+}
+.search-bar input[type=text] {
+    font-size: 22px;
+    padding: 10px;
+    width:100%;
+}
+.no_results_found , .log-in-banner{
+    text-align: center;
+    font-size: xx-large;
+}
+.log-in-banner button{
+    font-size: large;
+    padding: 20px;
+    border-radius: 25px;
+    width: 20%;
+    margin-top: 10px;
+    border-style: none;
+    cursor: pointer;
+
+}
+.log-in-banner button:hover{
+    background-color: #a852a7 ;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .first-banner{
+    height: auto;
+    }
+    .content-wrapper{
+        margin: 0;
+    }
+    .category_banner{
+        display: inline-block;
+        text-align: center;
+    }
+    .category_banner div{
+        display: inline-block;
+        text-align: center;
+    }
+    .category_img_wrapper{
+        width: 20%;
+        padding: 5px;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+    .category_banner .category_img_wrapper  img{
+        width: 100%;
+        height: auto;
+    }
+    .parents_icon img,.replace_icon img,.save_money_img img{
+        width: 50%;
+    }
+    .log-in-banner button{
+        width: auto;
+    }
+    .Third-banner .h3{
+        margin: 0;
+    }
+}

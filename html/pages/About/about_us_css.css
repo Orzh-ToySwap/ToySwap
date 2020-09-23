@@ -1,0 +1,55 @@
+@import "/ToySwap/html/components/info/Footer-css.css";
+@import "/ToySwap/html/components/info/header-css.css";
+
+footer{
+    background: #8CBCD3;
+}
+.Header{
+    background: #8CBCD3;
+}
+main{
+    background-image: url("bar.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.us{
+    color: #FCA2DF;
+    float: right;
+    position: relative;
+    text-align: right;
+    width: 70%;
+    padding-right: 50px;
+    border-right: white 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    font-size: large;
+}
+.Address{
+    text-align: right;
+    color: white;
+    padding-left: 20px;
+    float: left;
+    width: 150px;
+}
+.Address-contact a{
+    color: white;
+    text-decoration: none;
+}
+.Address-contact a:hover{
+    color: #FCA2DF;
+}

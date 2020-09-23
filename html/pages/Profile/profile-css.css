@@ -1,0 +1,234 @@
+
+@import "/ToySwap/html/components/info/Footer-css.css";
+@import "/ToySwap/html/components/info/header-css.css";
+
+.main-container{
+    background-color: #CEA2FF;
+    text-align: right;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: white;
+    border-width:0;
+    border-style: solid;
+}
+input:focus{
+    outline-width: 0;
+}
+button:focus{
+    outline-width: 0;
+}
+select:focus{
+    outline-width: 0;
+}
+.change_password_button-div{
+    text-align: center;
+}
+.Change-password button {
+    border-radius:500px;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: mediumslateblue;
+}
+.Change_password_button{
+    background-color: #4d0094;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:40%;
+    opacity: 0.9;
+    font-size: 20px;
+}
+.Change_password_button:hover{
+    color: black;
+}
+
+button:hover{
+    color: white;
+}
+
+.header-img-and-title{
+    background-color: #EF96CE;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.header-img-and-title .title{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #885B7E;
+}
+
+.Account-overview{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.Account-overview  h1{
+    background-color: #333333;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: white;
+}
+.title h1{
+    font-size: 60px;
+}
+
+.profile-overview, .Change-password{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Profile-data p{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: white;
+}
+
+.item_in_list{
+    height:20px;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+.item-wrapper{
+    width: 100%;
+}
+
+.item_edit , .item-name ,.item-price,.item-time,.item-icon,.item-description ,.item-seller-name{
+    float: right;
+    width:14.2% ;
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+.item-img{
+    vertical-align: middle;
+    float: right;
+    width:14.2% ;
+    text-align: center;
+}
+.item-wrapper img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+   
+}
+.ul{
+    list-style-type: none;
+}
+.li {
+    position: relative;
+    margin: 0;
+}
+.large{
+    position: absolute;
+    left: -9999px;
+}
+.large img{
+    width: 200px;
+    height: auto;
+}
+.li:hover .large{
+    left: 20px;
+    top:-150px;
+
+}
+.large-image{
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 3px rgba(127,127,127,0.15);
+}
+
+.item-icon{
+    text-align: center;
+    color: white;
+}
+.item-icon button{
+    font-size: x-large;
+    background-color: mediumslateblue;
+    color: white;
+    cursor: pointer;
+    width: auto;
+}
+.item-icon button:hover{
+    color: black;
+}
+
+.item-price ::before{
+    content: " \20aa";
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.change_pref_bottom_div{
+    text-align: center;
+    font-size: large;
+}
+.profile-data-pref button{
+    border-radius: 500px;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: mediumslateblue;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: large;
+}
+.change_pref_bottom_div form{
+    border: black 1px solid;
+}
+.change_pref_bottom_div select{
+     margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
+.change_pref_bottom_div div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .main-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .item_edit , .item-name ,.item-price,.item-time,.item-icon,.item-description ,.item-seller-name{
+        float: right;
+        width:14.2% ;
+        text-align: center;
+        margin-top: 10px;
+        font-size: small;
+    }
+    .item_edit{
+        font-size: large;
+    }
+    .profile-overview, .Change-password{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .title h1{
+        font-size: 50px;
+    }
+}

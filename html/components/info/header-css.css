@@ -1,0 +1,108 @@
+@import "/ToySwap/html/components/info/log_in_popup_css.css";
+@import "/ToySwap/html/components/info/singup-popup-css.css";
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header{
+    clear: both;
+    overflow: auto;
+    background: #ebebeb;
+    padding-right: 10px;
+}
+.nav-links-header .when_log_in_header {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    vertical-align: middle;
+    padding-top: 10px;
+    float: right;
+}
+.nav-links-header .when_log_in_header div{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.nav-links-header {
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+.when_not_log_in {
+    display: inline-flex;
+    float: right;
+}
+.when_not_log_in .login, .when_not_log_in .sing-up{
+    margin-left: 10px;
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    float: left;
+    margin: 8px;
+}
+
+
+.Header a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.profile a , .log-out a{
+    
+    color: blueviolet;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+}
+.header-buttom{
+    background-color: #FFC3C2 ;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 8px 0 8px 10px;
+}
+.hello ,.first-name-header{
+    text-align: right;
+    font-size: x-large;
+}
+@media only screen and (max-width: 768px) {
+    .Header{
+        padding: 0;
+    }
+    .Header .add-item a{
+        font-size: medium;
+    }
+    .Header a{
+        font-size: large;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .nav-links-header{
+        float: none;
+        display: block;
+    }
+    .nav-links-header .when_log_in_header{
+        display: inline-block;
+        width: 100%;
+    }
+    .nav-links-header  .when_log_in_header .first-name-header, .nav-links-header  .when_log_in_header .hello{
+        display: none;
+    }
+    .nav-links-header .when_log_in_header div{
+        text-align: center;
+        display: inline-block;
+        width: 23%;
+        margin-left: 0;
+    }
+    .when_not_log_in {
+        display: inline-flex;
+        float: right;
+    }
+    
+}
