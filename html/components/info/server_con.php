@@ -8,7 +8,7 @@
 /*
     $servername = "localhost";
     $username = "orzhis";
-    $password = "@1pU4ey4FqG0";
+    $password = "";
     $dbname = "orzhis_toyswap";
  */
     ?>
