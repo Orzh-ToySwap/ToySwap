@@ -1,3 +1,4 @@
+
 /* Full-width input fields */
 .modal-content-singup input[type=text], .modal-content-singup input[type=password] {
     width: 100%;
@@ -7,13 +8,14 @@
     display: inline-block;
     border: none;
     background: #f1f1f1;
-    font-size: large;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 .modal-content-singup select {
     text-align: right;
     color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0px 0 22px 0;
     display: inline-block;
     border: none;
@@ -121,3 +123,4 @@ hr {
         width: 90%;
     }
 }
+
