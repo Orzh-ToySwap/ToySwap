@@ -252,14 +252,11 @@
                   label: 'B'
                 }
               };
-              // Note: This example requires that you consent to location sharing when
-              // prompted by your browser. If you see the error "The Geolocation service
-              // failed.", it means you probably did not give permission for the browser to
-              // locate you.
+       
               var map, infoWindow;
               function initMap() {
                 map = new google.maps.Map(document.getElementById('map'), {
-                  center: {lat: -34.397, lng: 150.644},
+                  center: {lat: 32.048490, lng: 34.761160},
                   zoom: 12
                 });
                 infoWindow = new google.maps.InfoWindow;
@@ -280,7 +277,10 @@
                     handleLocationError(true, infoWindow, map.getCenter());
                   });
                 } else {
-                  // Browser doesn't support Geolocation
+                  var pos={
+                      lat:32.048490,
+                      lng:34.761160
+                  };
                   handleLocationError(false, infoWindow, map.getCenter());
                 }
                 downloadUrl('../google_api/google_api.php', function(data) {
