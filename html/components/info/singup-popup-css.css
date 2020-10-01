@@ -10,6 +10,7 @@
     background: #f1f1f1;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    text-align: right;
 }
 .modal-content-singup select {
     text-align: right;
