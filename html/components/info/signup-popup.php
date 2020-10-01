@@ -9,16 +9,16 @@
             <hr>
 
             <label for="email"><b>אימייל</b></label>
-            <input type="text" placeholder="הכנס אימייל" name="email" class="email_sign_up"  dir="rtl"required>
+            <input type="text" placeholder="הכנס אימייל" name="email" class="email_sign_up"  required>
 
             <label for="psw"><b>סיסמא</b></label>
-            <input type="password" placeholder="הכנס סיסמא" name="psw" pattern=".{8,}" title="מינימום 8 תווים"required  dir="rtl">
+            <input type="password" placeholder="הכנס סיסמא" name="psw" pattern=".{8,}" title="מינימום 8 תווים"required >
     
             <label for="fname"><b>שם פרטי</b></label>
-            <input type="text" placeholder="שם פרטי" name="fname"   dir="rtl"required>
+            <input type="text" placeholder="שם פרטי" name="fname"  required>
     
             <label for="lname"><b>שם משפחה</b></label>
-            <input type="text" placeholder="שם משפחה" name="lname"  dir="rtl" required>
+            <input type="text" placeholder="שם משפחה" name="lname"  required>
     
             <label for="main-category"><b>קטגוריה מועדפת</b><br> </label>
             <select name="main-category" id="main-category"  dir="rtl">
